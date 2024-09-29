@@ -31,6 +31,13 @@ h1 {
     margin-bottom: 20px;
     color: #333;
     font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: linear-gradient(to right, #44302b, #1a8623);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-align: center; 
 }
 
 p {
@@ -49,6 +56,7 @@ button {
     cursor: pointer;
     font-size: 1.1rem;
     transition: background-color 0.3s, transform 0.3s;
+    background: linear-gradient(to right, #186122, #6b3b16)
 }
 
 button:hover {
